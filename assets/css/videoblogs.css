@@ -1,0 +1,80 @@
+.videoblogs{
+    display: flex;
+    height: 300px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: "Oswald", sans-serif;
+}
+
+.boxesVideoblogs{
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bogota{
+    width: 25vw;
+    height: 25vh;
+    background-image: url('../media/Bogota.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.5);
+}
+
+.bogota a{
+    text-decoration: none;
+    color: white;
+}
+.colombia{
+    width: 25vw;
+    height: 25vh;
+    background-image: url(../media/Medellin.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 10px;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colombia a{
+    text-decoration: none;
+    color: white;
+}
+.mundo{
+    width: 25vw;
+    height: 25vh;
+    background-image: url('../media/Mexico.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mundo a{
+    text-decoration: none;
+    color: white;
+}

@@ -1,0 +1,11 @@
+.fotosDestacadas {
+    width: 80%; /* Ajusta el ancho del carrusel */
+    height: 500px; /* Ajusta la altura del carrusel */
+    margin: auto; /* Centra el carrusel horizontalmente */
+}
+
+.fotosDestacadas .carousel-item img {
+    width: 100%; /* Ajusta la imagen al 100% del ancho del carrusel */
+    height: 100%; /* Ajusta la imagen al 100% de la altura del carrusel */
+     /* Cubre el área del carrusel manteniendo el aspecto de la imagen */
+}
