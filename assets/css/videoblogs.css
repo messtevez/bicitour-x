@@ -7,13 +7,27 @@
     align-items: center;
     color: black;
     font-family: "Oswald", sans-serif;
+    background-color: #621D74;
+    background-color: rgba(98, 29, 116, 0.5);
+    color: white;
+    margin: 10px;
+}
+
+.videoblogs a{
+    text-decoration: none;
 }
 
 .boxesVideoblogs{
-    width: 80vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+}
+
+
+.boxesVideoblogs button {
+    background: none;
+    color: white;
+    border: none;
 }
 
 .bogota{
@@ -31,7 +45,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    filter: brightness(0.5);
 }
 
 .bogota a{
