@@ -1,0 +1,82 @@
+.quienesSomos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+}
+
+.misionVisionBox {
+    display: flex;
+    width: 80%;
+    align-items: center;
+}
+
+.mision {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(98, 29, 116, 1);
+    color: white;
+    border-radius: 10px;
+}
+
+.vision {
+    width: 50%;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgba(98, 29, 116, 1);
+    color: white;
+    border-radius: 10px;
+}
+
+.nuestroEquipo {
+    background-color: #621D74;
+    color: white;
+    width: 80%;
+    text-align: center;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nuestroEquipo img{
+    border-radius: 10px;
+}
+.perfilesEquipo{
+    display: flex;
+    width: 85%;
+    margin: 20px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.fotosPerfil {
+    display: flex;
+    flex-direction: row;
+    width: 45%;
+    align-items: center;
+}
+
+.perfilesEquipo img{
+    width: 50%;
+    margin: 5px;    
+}
+
+.textoPerfil {
+    width: 50%;
+    padding: 10px;
+    width: 50%;
+    margin-left: 20px;
+}
+
+.textoPerfil h4{
+    margin-top: 20px;
+}
+.textoPerfil p{
+    margin-top: 50px;
+}

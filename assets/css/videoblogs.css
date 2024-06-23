@@ -1,6 +1,6 @@
 .videoblogs{
     display: flex;
-    height: 300px;
+    height: 50vh;
     width: 100%;
     flex-direction: column;
     justify-content: center;
@@ -15,6 +15,7 @@
 
 .videoblogs a{
     text-decoration: none;
+    height: 15vw;
 }
 
 .boxesVideoblogs{
