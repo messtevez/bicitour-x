@@ -1,0 +1,45 @@
+.formularioRegistro{
+    background-color: #621D74;
+    display: flex;
+    color: white;
+    width: 80vw;
+    justify-content: center;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
+
+.formularioRegistro h3{
+    text-align: center
+}
+.formularioRegistro form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.formularioRegistro input{
+    border-radius: 5px;
+    border: none;
+    margin: 10px;
+}
+
+.formularioRegistro select{
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.cajaBoton{
+    display: flex;
+    justify-content: center;
+}
+.boton {
+    width: 15vw;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #91BE28;
+    color: white;
+}

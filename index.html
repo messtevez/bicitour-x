@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="./assets/css/header.css">
     <link rel="stylesheet" href="./assets/css/seccion1.css">
     <link rel="stylesheet" href="./assets/css/videoblogs.css">
+    <link rel="stylesheet" href="./assets/css/formulario.css">
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
     <title>Bicitour X</title>
 </head>
@@ -73,14 +74,16 @@
                 <input type="tel" id="telefono" name="telefono" required>
 
                 <label for="opcion">Tipo de bici:</label>
-                <select id="opcion" name="opcion" required>
+                <select id="opcion" name="opcion" required multiple>
                     <option value="">Selecciona una opción</option>
                     <option value="opcion1">Piñon fijo</option>
                     <option value="opcion2">Ruta</option>
                     <option value="opcion3">MTB gravel</option>
                 </select>
 
-                <button type="submit">Enviar</button>
+                <div class="cajaBoton">
+                    <button type="submit" class="boton">Enviar</button>
+                </div>
             </form>
         </div>
     </section>
