@@ -25,3 +25,11 @@ footer img {
     height: 20px;
     font-size: 30px;
 }
+
+.contactanos {
+    text-align: center;
+}
+
+.contactanos p{
+    margin-bottom: 0;
+}

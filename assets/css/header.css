@@ -13,6 +13,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+/*    background: linear-gradient(rgba(5,7,12,0.3), rgba(5,7,12,0.3)), url(../media/Motivo\ fondo.JPG) no-repeat;
+    background-size: cover;*/
 }
 
 header{
@@ -20,10 +22,12 @@ header{
     display: flex ;
     width: 96%;
     height: 100px;
-    justify-content: center;
+    justify-content: space-evenly;
     border-radius: 10px;
     margin-top: 5px;
+    text-align: center;
 }
+
 
 .headerLogo {
     width: 15%;
