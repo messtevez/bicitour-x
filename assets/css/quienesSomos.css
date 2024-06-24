@@ -45,6 +45,7 @@
 
 .nuestroEquipo img{
     border-radius: 10px;
+    margin: 20px;
 }
 .perfilesEquipo{
     display: flex;
