@@ -1,0 +1,67 @@
+.cajaEnfoques{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px;
+}
+
+.titulo{
+    background-color: #621D74;
+    border-radius: 10px;
+    width: 70vw;
+    padding: 26px;
+    height: 100px;
+    margin: 20px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
+.enfoques {
+    display: flex;
+    margin: 10px;
+    padding: 30px;
+    justify-content: space-around;
+}
+
+.bicitourTeam {
+    width: 30%;
+    text-align: center;
+    background: url(../media/team.jpg) no-repeat center;
+    background-size: cover;
+    color: white;
+    height: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.viajesBicicleta {
+    width: 30%;
+    text-align: center;
+    background: url(../media/viajes.jpg);
+    background-size: cover;
+    color: white;
+    height: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
+
+.bicitourGroup {
+    width: 30%;
+    text-align: center;
+    background: url(../media/sociall.jpg);
+    background-size: cover;
+    color: white;
+    height: 25vw;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 50px;
+}
