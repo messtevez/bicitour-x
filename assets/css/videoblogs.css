@@ -1,6 +1,6 @@
 .videoblogs{
     display: flex;
-    height: 50vh;
+    height: 400px;
     width: 100%;
     flex-direction: column;
     justify-content: center;

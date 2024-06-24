@@ -1,0 +1,34 @@
+.eventos{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 30px;
+}
+
+.cajaEventos {
+    display: flex;
+    margin: 20px;
+    justify-content: center;
+}
+
+.cajaEventos img{
+    width: 30vw;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.cajaEventos p{
+    background-color: #621D74;
+    border-radius: 10px;
+    width: 25vw;
+    padding: 55px;
+    height: 500px;
+    margin: 20px;
+    color: white;
+}
+
+.botonEventos{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
