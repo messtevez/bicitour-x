@@ -43,6 +43,9 @@
     background-color: #91BE28;
     color: white;
 }
+.span-message {
+    color: red;
+}
 
 @media(max-width: 1000px){
     .formularioRegistro {
