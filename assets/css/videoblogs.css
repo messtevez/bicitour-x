@@ -117,25 +117,22 @@
     }
 }
 
-@media (max-width: 540px){
-    .videoblogs {
-        height: 250px;
+@media (max-width: 600px){
+    .boxesVideoblogs {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
     }
-    .boxesVideoblogs button {
-        font-size: 18px;
+    .videoblogs {
+        flex: 1;
     }
     .videoblogs a {
-        height: 17vw;
-    }
-    .mundo {
-        margin: 10px;
+        height: 200px;
+        width: 312px;
     }
 
-    .bogota{
-        margin: 10px;
-    }
-
-    .colombia{
+    .videoblogs h3{
         margin: 10px;
     }
 }
