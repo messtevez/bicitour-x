@@ -43,3 +43,15 @@
     background-color: #91BE28;
     color: white;
 }
+
+@media (max-width: 645px){
+    .boton {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 332px){
+    .boton {
+        width: 22vw;
+    }
+}
