@@ -14,7 +14,7 @@ boton.addEventListener('click', (evento) => {
     if(nombre.value == ''){
         console.log('Entro')
         nombre.style.border = '2px solid red'
-        spanNombre.textContent = 'Hey!! el campo nombre es necesario!!'
+        spanNombre.textContent = '¡¡Hey, este campo es necesario!!'
     }else {
         nombre.style.border = 'none'
         spanNombre.textContent = ''
