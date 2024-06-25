@@ -24,11 +24,9 @@
     justify-content: space-around;
 }
 
-.bicitourTeam {
+.cajaEnfoquesIndividual{
     width: 30%;
     text-align: center;
-    background: url(../media/team.jpg) no-repeat center;
-    background-size: cover;
     color: white;
     height: 25vw;
     border-radius: 10px;
@@ -36,32 +34,66 @@
     flex-direction: column;
     justify-content: center;
     padding: 50px;
+}
+.bicitourTeam {
+    background: url(../media/team.jpg) no-repeat center;
+    background-size: cover;
 }
 
 .viajesBicicleta {
-    width: 30%;
-    text-align: center;
     background: url(../media/viajes.jpg);
     background-size: cover;
-    color: white;
-    height: 25vw;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
 }
 
 .bicitourGroup {
-    width: 30%;
-    text-align: center;
     background: url(../media/sociall.jpg);
     background-size: cover;
-    color: white;
-    height: 25vw;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    padding: 50px;
+}
+
+@media (max-width: 1070px){
+    .titulo {
+        width: 80vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1000px){
+    .titulo {
+        width: 90vw;
+        
+    }
+    .cajaEnfoquesIndividual{
+        height: 30vw;
+        padding: 20px;
+    }
+    .cajaEnfoquesIndividual h3 {
+        font-size: 20px;
+    }
+    .enfoques {
+        font-size: 12px;
+        padding: 0px;
+    }
+}
+
+@media (max-width: 830px){
+    .titulo {
+        font-size: 25px;
+    }
+}
+
+@media (max-width: 700px){
+    .titulo {
+        font-size: 20px;
+    }
+}
+
+@media(max-width:600px){
+    .cajaEnfoquesIndividual{
+        font-size: 10px;
+    }
+    .cajaEnfoquesIndividual h3 {
+        font-size: 15px;
+    }
 }

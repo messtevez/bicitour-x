@@ -11,7 +11,7 @@
     align-items: center;
 }
 
-.mision {
+.misionVision {
     width: 50%;
     margin: 20px;
     padding: 20px;
@@ -21,15 +21,7 @@
     border-radius: 10px;
 }
 
-.vision {
-    width: 50%;
-    margin: 20px;
-    padding: 20px;
-    text-align: center;
-    background-color: rgba(98, 29, 116, 1);
-    color: white;
-    border-radius: 10px;
-}
+
 
 .nuestroEquipo {
     background-color: #621D74;
@@ -80,4 +72,44 @@
 }
 .textoPerfil p{
     margin-top: 50px;
+}
+
+@media(max-width: 910px){
+    .fotosPerfil {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media(max-width: 800px){
+    .misionVisionBox {
+        width: 90%;
+
+    }
+    .nuestroEquipo {
+        width: 90%;
+    }
+    .perfilesEquipo {
+        width: 90%;
+    }
+    .perfilesEquipo img {
+        width: 70%;
+    }
+    .textoPerfil {
+        width: 60%;
+    }
+}
+@media(max-width: 650px){
+    .misionVision {
+        margin: 10px;
+    }
+}
+
+@media(max-width: 550px){
+    .misionVisionBox {
+        flex-direction: column;
+    }
+    .misionVision {
+        width: auto;
+    }
 }

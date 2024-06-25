@@ -15,6 +15,7 @@
     width: 30vw;
     margin: 20px;
     border-radius: 20px;
+    flex: 1;
 }
 
 .cajaEventos p{
@@ -31,4 +32,30 @@
     display: flex;
     justify-content: center;
     margin: 10px;
+}
+
+@media (max-width: 1200px){
+    .cajaEventos {
+        flex-direction: column;
+        align-items: center;
+    }
+    .cajaEventos img{
+        width: 50vw;
+    }
+    .cajaEventos p {
+        width: 50vw;
+        height: 250px;
+        flex: 1;
+    }
+}
+
+@media (max-width: 700px){
+    .cajaEventos img{
+        width: 70vw;
+    }
+    .cajaEventos p {
+        width: 70vw;
+        height: 250px;
+        flex: 1;
+    }
 }

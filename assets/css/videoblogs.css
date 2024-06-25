@@ -93,6 +93,12 @@
     color: white;
 }
 
+@media (max-width: 1050px){
+    .videoblogs {
+        height: 350px;
+    }
+}
+
 @media (max-width: 930px){
     .videoblogs {
         height: 330px;
