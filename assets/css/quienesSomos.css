@@ -76,7 +76,6 @@
 
 @media(max-width: 910px){
     .fotosPerfil {
-        flex-direction: column;
         justify-content: center;
     }
 }
@@ -91,12 +90,14 @@
     }
     .perfilesEquipo {
         width: 90%;
+        flex-direction: column;
+        align-items: center;
     }
     .perfilesEquipo img {
         width: 70%;
     }
     .textoPerfil {
-        width: 60%;
+        width: 100%;
     }
 }
 @media(max-width: 650px){
